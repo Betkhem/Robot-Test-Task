@@ -1,0 +1,12 @@
+tasks:
+  Run Python:
+    shell: python selenium_test_task.py
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
